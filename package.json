@@ -44,6 +44,7 @@
   },
   "homepage": "https://github.com/usama7365/react-native-wireguard-vpn#readme",
   "dependencies": {
+    "expo": "^54.0.29",
     "react-native-wireguard-vpn": "^1.0.15"
   }
 }
