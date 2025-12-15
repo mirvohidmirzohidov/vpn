@@ -27,4 +27,5 @@ jobs:
       - name: EAS Build Android
         env:
           EAS_BUILD_PROFILE: preview
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }} # token shu yerda ishlatiladi
         run: eas build -p android --non-interactive
