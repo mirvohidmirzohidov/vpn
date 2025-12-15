@@ -1,34 +1,12 @@
 {
   "expo": {
-    "name": "VPN",
-    "slug": "vpn-app",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/app-logo.png",
-    "scheme": "reactnativeapp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "package": "com.mirvohid_01.reactnativeapp"
-    },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "plugins": [],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    },
     "extra": {
-      "router": {},
       "eas": {
-        "projectId": "7266dbdb-dcd3-456e-9fdf-195608c5b7bf"
+        "projectId": "37229f55-b286-4c33-98bf-450ec8762e9d"
       }
     },
-    "owner": "mirvohid"
+    "android": {
+      "package": "com.mirvohid.reactnativewireguardvpn"
+    }
   }
 }
